@@ -21,5 +21,5 @@ int main(){
 		}
 	}
 
-	for(int &i:arr) (i==-1) ? cout << "" : cout << i;
+	for(int &i:arr) if(i>-1) cout << i;
 }
